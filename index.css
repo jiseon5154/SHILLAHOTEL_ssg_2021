@@ -1,3 +1,25 @@
-body {
-  background-color: #afafaf;
+main {
+  overflow: auto;
+  scroll-snap-type: y mandatory;
+  height:100vh;
+}
+
+main > * {
+  scroll-snap-align: start;
+}
+
+.section-2-was-shown .top-bar {
+  color:red;
+}
+
+.top-bar .logo > img:last-child {
+  display: none;
+}
+
+.section-2-was-shown .top-bar .logo > img:last-child {
+  display: block;
+}
+
+.section-2-was-shown .top-bar .logo > img:first-child {
+  display: none;
 }

@@ -1,0 +1,36 @@
+:root {
+  --site-content-width: 1400px;
+  --site-content-px: 20px;
+  --top-bar__height:100px;
+}
+
+.top-bar {
+  top:0;
+  left:0;
+  width:100%;
+  height: var(--top-bar__height);
+  position: fixed;
+}
+
+.top-bar-padd {
+  height:var(--top-bar__height);
+}
+
+.con {
+  width: var(--site-content-width);
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.con-min-width {
+  min-width: var(--site-content-width);
+}
+
+.con-padd {
+  padding-left:var(--site-content-px);
+  padding-right:var(--site-content-px);
+}
+
+.section-min-height {
+  min-height:800px;
+}
